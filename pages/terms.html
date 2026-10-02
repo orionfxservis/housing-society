@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Service - Green Valley Housing Society</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="shared-styles.css" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0f172a', 'primary-light': '#1e3a5f', 'primary-dark': '#020617',
+            secondary: '#10b981', 'secondary-light': '#34d399',
+            accent: '#f59e0b', 'accent-light': '#fbbf24', 'accent-dark': '#d97706',
+            'bg-light': '#f8fafc', 'bg-warm': '#fef3c7',
+            'text-dark': '#0f172a', 'text-body': '#475569', 'text-muted': '#64748b',
+          },
+          fontFamily: { heading: ['"Playfair Display"', '"JameelNooriNastaleeq"', 'serif'], body: ['Inter', '"JameelNooriNastaleeq"', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+<style>@font-face {
+      font-family: 'JameelNooriNastaleeq';
+      src: url('../assets/fonts/JameelNooriNastaleeq.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }</style>
+</head>
+<body class="bg-white">
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 lg:h-20">
+        <a href="../index.html" class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-lg overflow-hidden flex items-center justify-center bg-white border border-gray-150 shadow-sm">
+            <img src="../assets/logo/aeechs-logo.jpg" alt="AEECHS Limited Logo" class="w-full h-full object-cover">
+          </div>
+          <div><h1 class="font-heading text-lg font-bold leading-tight text-primary">Green Valley</h1><p class="text-[10px] uppercase tracking-widest text-text-muted">Housing Society</p></div>
+        </a>
+        <div class="hidden lg:flex items-center gap-1">
+          <a href="../index.html" class="relative px-3 py-2 text-sm font-medium rounded-md text-text-body hover:text-primary nav-link-underline transition-all">Home</a>
+          <a href="about.html" class="relative px-3 py-2 text-sm font-medium rounded-md text-text-body hover:text-primary nav-link-underline transition-all">About Society</a>
+          <a href="founders.html" class="relative px-3 py-2 text-sm font-medium rounded-md text-text-body hover:text-primary nav-link-underline transition-all">Founders</a>
+          <a href="managing-committee.html" class="relative px-3 py-2 text-sm font-medium rounded-md text-text-body hover:text-primary nav-link-underline transition-all">Managing Committee</a>
+          <a href="layout.html" class="relative px-3 py-2 text-sm font-medium rounded-md text-text-body hover:text-primary nav-link-underline transition-all">Layout</a>
+          <a href="administrators.html" class="relative px-3 py-2 text-sm font-medium rounded-md text-text-body hover:text-primary nav-link-underline transition-all">Administrators</a>
+          <a href="cases.html" class="relative px-3 py-2 text-sm font-medium rounded-md text-text-body hover:text-primary nav-link-underline transition-all">Cases</a>
+          <a href="landgrabbers.html" class="relative px-3 py-2 text-sm font-medium rounded-md text-text-body hover:text-primary nav-link-underline transition-all">Land Grabbers</a>
+          <a href="media.html" class="relative px-3 py-2 text-sm font-medium rounded-md text-text-body hover:text-primary nav-link-underline transition-all">Media</a>
+          <a href="contact.html" class="relative px-3 py-2 text-sm font-medium rounded-md text-text-body hover:text-primary nav-link-underline transition-all">Contact Us</a>
+        </div>
+        <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-lg text-primary hover:bg-primary/5"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-100 px-6 py-4">
+      <div class="flex flex-col gap-2">
+        <a href="../index.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-base font-medium text-text-body hover:bg-primary/5 hover:text-primary">Home</a>
+        <a href="about.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-base font-medium text-text-body hover:bg-primary/5 hover:text-primary">About Society</a>
+        <a href="founders.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-base font-medium text-text-body hover:bg-primary/5 hover:text-primary">Founders</a>
+        <a href="managing-committee.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-base font-medium text-text-body hover:bg-primary/5 hover:text-primary">Managing Committee</a>
+        <a href="layout.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-base font-medium text-text-body hover:bg-primary/5 hover:text-primary">Layout</a>
+        <a href="administrators.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-base font-medium text-text-body hover:bg-primary/5 hover:text-primary">Administrators</a>
+        <a href="cases.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-base font-medium text-text-body hover:bg-primary/5 hover:text-primary">Cases</a>
+        <a href="landgrabbers.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-base font-medium text-text-body hover:bg-primary/5 hover:text-primary">Land Grabbers</a>
+        <a href="media.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-base font-medium text-text-body hover:bg-primary/5 hover:text-primary">Media</a>
+        <a href="contact.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-base font-medium text-text-body hover:bg-primary/5 hover:text-primary">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="relative pt-20 lg:pt-24 py-20 lg:py-28 bg-gradient-to-br from-primary via-primary-light to-secondary overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center animate-fade-up">
+      <span class="text-accent text-xs uppercase tracking-[0.3em] font-medium">Legal</span>
+      <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-white mt-4 mb-6">Terms of Service</h1>
+      <p class="text-white/70 text-lg max-w-2xl mx-auto">Please read these terms carefully before using our website and services. By accessing this site, you agree to be bound by these terms.</p>
+    </div>
+  </section>
+
+  <section class="py-20 lg:py-28 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="prose prose-lg max-w-none">
+        <div class="mb-10 animate-fade-up">
+          <h2 class="font-heading text-2xl font-bold text-slate-800 mb-4">1. Acceptance of Terms</h2>
+          <p class="text-text-body leading-relaxed">By accessing and using the Green Valley Housing Society website, you accept and agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our website.</p>
+        </div>
+        <div class="mb-10 animate-fade-up" style="animation-delay:0.1s">
+          <h2 class="font-heading text-2xl font-bold text-slate-800 mb-4">2. Use of Website</h2>
+          <p class="text-text-body leading-relaxed">This website is provided for informational purposes about Green Valley Housing Society. You may use the content for personal, non-commercial purposes only. You may not modify, copy, distribute, transmit, display, perform, reproduce, publish, license, create derivative works from, transfer, or sell any information obtained from this website.</p>
+        </div>
+        <div class="mb-10 animate-fade-up" style="animation-delay:0.2s">
+          <h2 class="font-heading text-2xl font-bold text-slate-800 mb-4">3. Member Responsibilities</h2>
+          <p class="text-text-body leading-relaxed">Society members are expected to comply with all bylaws, rules, and regulations established by the Managing Committee. Members must pay maintenance charges on time and participate in society activities as required.</p>
+        </div>
+        <div class="mb-10 animate-fade-up" style="animation-delay:0.3s">
+          <h2 class="font-heading text-2xl font-bold text-slate-800 mb-4">4. Disclaimer</h2>
+          <p class="text-text-body leading-relaxed">The information on this website is provided "as is" without any representations or warranties. Green Valley Housing Society makes no representations or warranties in relation to the accuracy or completeness of the information on this website.</p>
+        </div>
+        <div class="mb-10 animate-fade-up" style="animation-delay:0.4s">
+          <h2 class="font-heading text-2xl font-bold text-slate-800 mb-4">5. Governing Law</h2>
+          <p class="text-text-body leading-relaxed">These terms shall be governed by and construed in accordance with the laws of India. Any disputes arising under these terms shall be subject to the exclusive jurisdiction of the courts in the relevant jurisdiction.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-primary text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div class="lg:col-span-1">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-10 h-10 rounded-lg overflow-hidden flex items-center justify-center bg-white border border-white/10 shadow-sm">
+            <img src="../assets/logo/aeechs-logo.jpg" alt="AEECHS Limited Logo" class="w-full h-full object-cover">
+          </div>
+            <div><h3 class="font-heading text-lg font-bold text-white">Green Valley</h3><p class="text-[10px] uppercase tracking-widest text-white/50">Housing Society</p></div>
+          </div>
+          <p class="text-white/60 text-sm leading-relaxed mb-6">A premier 100-acre residential community established in 1998, featuring 800 member-allotted plots with world-class amenities.</p>
+        </div>
+        <div><h4 class="font-heading text-base font-semibold text-white mb-6">Quick Links</h4>
+          <ul class="space-y-3">
+            <li><a href="about.html" class="text-white/60 hover:text-accent transition-colors text-sm flex items-center gap-2"><span class="w-1 h-1 bg-accent rounded-full"></span>About Society</a></li>
+            <li><a href="founders.html" class="text-white/60 hover:text-accent transition-colors text-sm flex items-center gap-2"><span class="w-1 h-1 bg-accent rounded-full"></span>Founders</a></li>
+            <li><a href="managing-committee.html" class="text-white/60 hover:text-accent transition-colors text-sm flex items-center gap-2"><span class="w-1 h-1 bg-accent rounded-full"></span>Managing Committee</a></li>
+            <li><a href="layout.html" class="text-white/60 hover:text-accent transition-colors text-sm flex items-center gap-2"><span class="w-1 h-1 bg-accent rounded-full"></span>Site Layout</a></li>
+            <li><a href="contact.html" class="text-white/60 hover:text-accent transition-colors text-sm flex items-center gap-2"><span class="w-1 h-1 bg-accent rounded-full"></span>Contact Us</a></li>
+          </ul>
+        </div>
+        <div><h4 class="font-heading text-base font-semibold text-white mb-6">Legal & Governance</h4>
+          <ul class="space-y-3">
+            <li><a href="cases.html" class="text-white/60 hover:text-accent transition-colors text-sm flex items-center gap-2"><span class="w-1 h-1 bg-accent rounded-full"></span>Legal Cases</a></li>
+            <li><a href="landgrabbers.html" class="text-white/60 hover:text-accent transition-colors text-sm flex items-center gap-2"><span class="w-1 h-1 bg-accent rounded-full"></span>Land Grabbers</a></li>
+            <li><a href="administrators.html" class="text-white/60 hover:text-accent transition-colors text-sm flex items-center gap-2"><span class="w-1 h-1 bg-accent rounded-full"></span>Administrators</a></li>
+          </ul>
+        </div>
+        <div><h4 class="font-heading text-base font-semibold text-white mb-6">Get in Touch</h4>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3"><svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg><span class="text-white/60 text-sm">Green Valley Housing Society,<br>Sector 12, Metropolitan Area,<br>State - 123456</span></li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg><span class="text-white/60 text-sm">+91 12345 67890</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-white/10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row justify-between items-center gap-3">
+        <p class="text-white/40 text-xs text-center sm:text-left">&copy; 2025 Green Valley Housing Society. All rights reserved.</p>
+        <div class="flex items-center gap-4">
+          <a href="/pages/policy.html" class="text-white/40 hover:text-accent text-xs transition-colors">Privacy Policy</a>
+          <span class="text-white/20">|</span>
+          <a href="/pages/terms.html" class="text-white/40 hover:text-accent text-xs transition-colors">Terms of Service</a>
+          <span class="text-white/20">|</span>
+          <a href="/pages/cookies.html" class="text-white/40 hover:text-accent text-xs transition-colors">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="fab-container" class="fixed bottom-6 right-6 z-50 flex flex-row gap-3 transition-all duration-300 opacity-0 translate-y-4 pointer-events-none">
+    <button onclick="window.scrollTo({top:0,behavior:'smooth'})" class="w-12 h-12 bg-accent hover:bg-accent-light rounded-full shadow-lg shadow-accent/30 flex items-center justify-center transition-all hover:scale-110 hover:-translate-y-1" aria-label="Go to top"><svg class="w-5 h-5 text-primary-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/></svg></button>
+    <a href="https://wa.me/911234567890" target="_blank" rel="noopener noreferrer" class="w-12 h-12 bg-[#25D366] hover:bg-[#128C7E] rounded-full shadow-lg shadow-[#25D366]/30 flex items-center justify-center transition-all hover:scale-110 hover:-translate-y-1" aria-label="Chat on WhatsApp"><svg class="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+  </div>
+
+  <script>
+    document.getElementById('mobile-menu-btn').addEventListener('click', () => { document.getElementById('mobile-menu').classList.toggle('hidden'); });
+    const fab = document.getElementById('fab-container');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) { fab.classList.remove('opacity-0','translate-y-4','pointer-events-none'); fab.classList.add('opacity-100','translate-y-0'); }
+      else { fab.classList.add('opacity-0','translate-y-4','pointer-events-none'); fab.classList.remove('opacity-100','translate-y-0'); }
+    });
+  </script>
+</body>
+</html>

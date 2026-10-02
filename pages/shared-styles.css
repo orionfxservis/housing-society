@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'JameelNooriNastaleeq';
+  src: url('../assets/fonts/JameelNooriNastaleeq.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary: #0f172a;
+  --primary-light: #1e3a5f;
+  --primary-dark: #020617;
+  --secondary: #10b981;
+  --secondary-light: #34d399;
+  --accent: #f59e0b;
+  --accent-light: #fbbf24;
+  --accent-dark: #d97706;
+  --bg-light: #f8fafc;
+  --bg-warm: #fef3c7;
+  --text-dark: #0f172a;
+  --text-body: #475569;
+  --text-muted: #64748b;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', 'JameelNooriNastaleeq', sans-serif;
+  color: var(--text-body);
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', 'JameelNooriNastaleeq', serif;
+  color: var(--text-dark);
+}
+
+.hero-dissolve { transition: opacity 1.8s ease-in-out; }
+
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(15, 23, 42, 0.12);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+  transition: all 0.3s ease;
+}
+.btn-primary:hover {
+  background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.25);
+}
+
+.btn-accent {
+  background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%);
+  transition: all 0.3s ease;
+}
+.btn-accent:hover {
+  background: linear-gradient(135deg, #fbbf24 0%, #fde047 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(245, 158, 11, 0.3);
+}
+
+.nav-link-underline { position: relative; }
+.nav-link-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--accent);
+  transition: width 0.3s ease;
+}
+.nav-link-underline:hover::after { width: 100%; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-up { animation: fadeUp 0.8s ease-out forwards; }
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.animate-fade-in { animation: fadeIn 1s ease-out forwards; }
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: #0f172a; border-radius: 4px; }
+
+.timeline-line {
+  position: absolute;
+  left: 16px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #e5e7eb;
+}
+@media (min-width: 768px) {
+  .timeline-line { left: 50%; transform: translateX(-1px); }
+}
+
+/* Brand Logo Image Replacement */
+a.flex.items-center.gap-3 div.w-10.h-10, 
+a.flex.items-center.gap-3 div[class*="bg-primary"],
+a.flex.items-center.gap-3 div[class*="bg-white/10"] {
+  background-image: url('../assets/logo/aeechs-logo.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-color: #ffffff !important;
+  border: 1px solid rgba(0,0,0,0.08) !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+}
+a.flex.items-center.gap-3 div.w-10.h-10 svg {
+  display: none !important;
+}
